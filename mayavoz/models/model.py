@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 import numpy as np
 import pytorch_lightning as pl
 import torch
-from huggingface_hub import cached_download, hf_hub_url
+from huggingface_hub.file_download import cached_download, hf_hub_url
 from pytorch_lightning.utilities.cloud_io import load as pl_load
 from torch import nn
 from torch.optim import Adam
